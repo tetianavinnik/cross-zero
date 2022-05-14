@@ -142,7 +142,7 @@ class Board:
 
     def _points_for_choice(self, node):
         """
-        
+        Count points.
         """
         count = 0
         def recurce(node, count):
